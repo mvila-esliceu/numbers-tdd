@@ -27,4 +27,9 @@ public class NumbersCatTest {
         assertEquals("Un", NumbersCat.say(1));
     }
 
+    @Test
+    public void donat_2_retorna_Dos() {
+        assertEquals("Dos", NumbersCat.say(2));
+    }
+
 }
