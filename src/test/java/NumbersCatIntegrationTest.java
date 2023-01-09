@@ -8,8 +8,8 @@ public class NumbersCatIntegrationTest {
     public void test1() {
         assertEquals("Zero", NumbersCat.say(0));
         assertEquals("Un", NumbersCat.say(1));
-        //assertEquals("Set", NumbersCat.say(7));
-        //assertEquals("Vuit", NumbersCat.say(8));
+        assertEquals("Set", NumbersCat.say(7));
+        assertEquals("Vuit", NumbersCat.say(8));
         //assertEquals("Dinou", NumbersCat.say(19));
         //assertEquals("Menys quatre", NumbersCat.say(-4));
     }
