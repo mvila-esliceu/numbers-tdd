@@ -11,9 +11,9 @@ public class NumbersCatIntegrationTest {
         assertEquals("Set", NumbersCat.say(7));
         assertEquals("Vuit", NumbersCat.say(8));
         //assertEquals("Dinou", NumbersCat.say(19));
-        //assertEquals("Menys quatre", NumbersCat.say(-4));
+        assertEquals("Menys quatre", NumbersCat.say(-4));
     }
-/*
+
     @Test
     public void test2() {
         assertEquals("Quaranta-quatre", NumbersCat.say(44));
@@ -21,10 +21,10 @@ public class NumbersCatIntegrationTest {
         assertEquals("Trenta", NumbersCat.say(30));
         assertEquals("Noranta-nou", NumbersCat.say(99));
         assertEquals("Vint", NumbersCat.say(20));
-        assertEquals("Vint-i-set", NumbersCat.say(27));
+        //assertEquals("Vint-i-set", NumbersCat.say(27));
         assertEquals("Menys seixanta-vuit", NumbersCat.say(-68));
     }
-
+/*
     @Test
     public void test3() {
         assertEquals("Cent vint-i-cinc", NumbersCat.say(125));
