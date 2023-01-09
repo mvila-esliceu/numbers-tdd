@@ -1,7 +1,16 @@
 public class NumbersCat {
     public static String say(long number) {
-        String[] naturals = {"Zero", "Un", "Dos", "Tres", "Quatre", "Cinc", "Sis", "Set", "Vuit", "Nou"};
+        String nombre = "";
+        String[] naturals = {"zero", "un", "dos", "tres", "quatre", "cinc", "sis", "set", "vuit", "nou"};
 
-        return naturals[(int) number];
+        int index = (int) Math.abs(number);
+
+        if(number < 0) {
+            nombre += "Menys ";
+        }
+
+        nombre += naturals[index];
+
+        return nombre.substring(0, 1).toUpperCase() + nombre.substring(1);
     }
 }
