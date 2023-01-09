@@ -22,4 +22,9 @@ public class NumbersCatTest {
         assertEquals("Zero", NumbersCat.say(0));
     }
 
+    @Test
+    public void donat_1_retorna_Un() {
+        assertEquals("Un", NumbersCat.say(1));
+    }
+
 }
