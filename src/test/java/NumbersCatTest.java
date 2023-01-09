@@ -32,4 +32,9 @@ public class NumbersCatTest {
         assertEquals("Dos", NumbersCat.say(2));
     }
 
+
+    @Test
+    public void donat_7_retornat_Set() {
+        assertEquals("Set", NumbersCat.say(7));
+    }
 }
