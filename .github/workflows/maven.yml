@@ -39,5 +39,8 @@ jobs:
       with:
         # Commands to run unit tests, start with '|' for multi-line
         commands: mvn -B test --file pom.xml
-        
+            # You may pin to the exact commit or the version.
+            # uses: bcgov-nr/action-test-and-analyse@3cef3a5aef85cf40367c35512891a9939a803b14
+        uses: bcgov-nr/action-test-and-analyse@v0.0.1
+
     
