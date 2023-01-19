@@ -56,7 +56,40 @@ public class NumbersCatTest {
     }
 
     @Test
-    public void donat_30_retornat_Trenta() {
+    public void donat_30_retorna_Trenta() {
         assertEquals("Trenta", NumbersCat.say(30));
+    }
+
+    @Test
+    public void donat_20_retorna_Vint() {
+        assertEquals("Vint", NumbersCat.say(20));
+    }
+
+
+    @Test
+    public void donat_21_retorna_Vint_i_un() {
+        assertEquals("Vint-i-un", NumbersCat.say(21));
+    }
+
+    @Test
+    public void donat_10_retorna_Deu() {
+        assertEquals("Deu", NumbersCat.say(10));
+    }
+
+    @Test
+    public void donat_11_retorna_Onze() {
+        assertEquals("Onze", NumbersCat.say(11));
+    }
+
+    @Test
+    public void donat_15_retornat_Quinze() {
+        assertEquals("Quinze", NumbersCat.say(15));
+    }
+
+    @Test
+    @Ignore
+    public void donat_100_retorna_Cent() {
+        assertEquals("Cent", NumbersCat.say(100));
+
     }
 }
