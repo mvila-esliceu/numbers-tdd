@@ -76,7 +76,7 @@ jobs:
         key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
         restore-keys: ${{ runner.os }}-m2
     - name: Measure test coverage
-      run: mvn sonar:sonar -Pcoverage
+      run: mvn clean verify sonar:sonar -Pcoverage
     - name: Build and analyze
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
