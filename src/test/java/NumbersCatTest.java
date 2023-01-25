@@ -42,7 +42,7 @@ public class NumbersCatTest {
 
     @Test
     public void donat_3_negatiu_retorna_Menys_tres() {
-        assertEquals("Menys tres", NumbersCat.say(-3));
+        assertEquals("Menys tres", NumbersCat.say(-33));
     }
 
     @Test
